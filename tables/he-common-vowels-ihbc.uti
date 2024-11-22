@@ -26,7 +26,8 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-This is a common character file that supports Hebrew forward and back translation. Matthew Yeater, Paul Geoghegan, and Leonard De Ruijter
+#This is a common character file that supports Hebrew forward and back translation. Matthew Yeater, Paul Geoghegan, and Leonard De Ruijter
+
 # always op code characters
 always ִי 35  # hiriq-yod
 always ֵי 3456  # tsere-yod*
@@ -187,7 +188,6 @@ always טֵּ 5-2345-34  # tet dagesh with tsere
 always טֶּ 5-2345-15  # tet dagesh with segol
 always טַּ 5-2345-14  # tet dagesh with patah
 always טָּ 5-2345-126  # tet dagesh  qamats
-always י 245  # Yod with dagesh
 always יְ 5-245-3  # Yod with dagesh sheva
 always יֱּ 5-245-26  # Yod dagesh  hataf segol
 always יֲּ 5-245-25  # Yod dagesh  hataf patah
@@ -198,7 +198,6 @@ always יֵּ 5-245-34  # Yod dagesh with tsere
 always יֶּ 5-245-15  # Yod dagesh with segol
 always יַּ 5-245-14  # Yod dagesh with patah
 always יָּ 5-245-126  # Yod dagesh  qamats
-always יּ 5-245  # Yod with dagesh
 always יְּ 5-245-3  # Yod with dagesh sheva
 always יֱּ 5-245-26  # Yod dagesh  hataf segol
 always יֲּ 5-245-25  # Yod dagesh  hataf patah
@@ -460,7 +459,6 @@ always שׁ 146  # shin with dot
 always שְׁ 146-3  #  Shin with dot and sheva
 always שּׁ 5-146  # shin with dot and dagesh
 always שׂ 156  # sin
-always ת 1456  # tav
 always תְ 1256-3  # tav with dagesh sheva
 always תֱּ 1256-26  # tav dagesh with hataf segol
 always תֲּ 1256-25  # tav dagesh with hataf patah
@@ -470,7 +468,6 @@ always תֵּ 1256-34  # tav with dagesh
 always תֶּ 1256-15  # tav with dagesh
 always תַּ 1256-14  # tav with dagesh
 always תָּ 1256-126  # tav dagesh with qamats
-always תּ 1256  # tav with dagesh
 always תְּ 1256-3  # tav with dagesh sheva
 always תֱּ 1256-26  # tav dagesh with hataf segol
 always תֲּ 1256-25  # tav dagesh with hataf patah
@@ -484,7 +481,6 @@ always בּ 12  # Bet with dagesh
 always בְּ 12-3  # Bet with dagesh sheva
 always כּ 13  # KAF with dagesh 
 always כְּ 13-3  # KAF with dagesh  sheva
-always תּ 1256  # tav with daggesh
 always תְּ 1256-3  # tav with daggesh sheva
 
 # letter op code characters
@@ -501,84 +497,3 @@ letter ֹ 135  # holam Malay
 letter ֺ 246  # holam haser
 letter ֻ 136  # qubuts*
 letter ּ 5  # dagesh
-letter א 1  # alef
-letter ב 1236  # bet
-letter ג 1245  # gimel
-letter ד 145  # dalet
-letter ה 125  # hey
-letter ו 2456  # vav
-letter ז 1356  # zayin
-letter ח 1346  # het
-letter ט 2345  # tet
-letter כ 16  # kaf
-letter ל 123  # lamed
-letter מ 134  # mem
-letter נ 1345  # nun
-letter ס 234  # samekh with dagesh
-letter ע 1246  # ayin
-letter פ 124  # Pe
-letter צ 2346  # tsadi
-letter ק 12345  # qof
-letter ר 1235  # resh
-letter ש 146  # Shin
-
-# noback letter op code characters
-noback letter ך 16  # final kaf
-noback letter ם 134  # final mem
-noback letter ן 1345  # final nun
-noback letter ף 124  # final pe
-noback letter ץ 2346  # final tsadi
-
-# nofor always op code characters
-nofor always ך  16-0  # final kaf with  space
-nofor always ך! 16-235  # final kaf with exclamation
-nofor always ך" 16-6-2356  # final kaf with quote
-nofor always ך) 16-5-345  # final kaf with  right parenthesis
-nofor always ך, 16-2  # final kaf with comma
-nofor always ך. 16-256  # final kaf with  period
-nofor always ך? 16-56-236  # final kaf with  question
-nofor always ךְ 16-3  # final kaf with sheva
-nofor always ך־ 16-36  # final kaf with  Mediq
-nofor always ך” 16-356  # final kaf with right quote
-nofor always ם  134-0  # final Mem with  space
-nofor always ם! 134-235  # final Mem with  exclamation
-nofor always ם" 134-6-2356  # final Mem with quote
-nofor always ם) 134-5-345  # final Mem with  right parenthesis
-nofor always ם, 134-2  # final Mem with  comma
-nofor always ם. 134-256  # final Mem with  period
-nofor always ם? 134-56-236  # final Mem with  question
-nofor always םְ 134-3  # final Mem with sheva 
-nofor always ם־ 134-36  # final Mem with  Mediq
-nofor always ם” 134-356  # final Mem with right quote
-nofor always ן  1345-0  # final Nun with  space
-nofor always ן! 1345-235  # final Nun with  exclamation
-nofor always ן" 1345-6-2356  # final Nun with quote
-nofor always ן) 1345-5-345  # final Nun with  right parenthesis
-nofor always ן, 1345-2  # final Nun with  comma
-nofor always ן. 1345-256  # final Nun with  period
-nofor always ן? 1345-56-236  # final Nun with  question
-nofor always ןְ 1345  # final Nun with sheva
-nofor always ן־ 1345-36  # final Nun with Mediq
-nofor always ן” 1345-356  # final Nun with right quote
-nofor always ף  124-0  # final Pe with  space
-nofor always ף! 124-235  # final Pe with  exclamation
-nofor always ף" 124-6-2356  # final Pe with quote
-nofor always ף) 124-5-345  # final Pe with  right parenthesis
-nofor always ף, 124-2  # final Pe with  comma
-nofor always ף. 124-256  # final Pe with  period
-nofor always ף? 124-56-236  # final Pe with  question
-nofor always ףְ 124-14  # final Pe with furtive patah
-nofor always ף־ 124-36  # final Pe with Mediq
-nofor always ף” 124-356  # final Pe with right quote
-nofor always ץ  2346-0  # final tsadi with space
-nofor always ץ! 2346-235  # final tsadi with  exclamation
-nofor always ץ" 2346-6-2356  # final tsadi with quote
-nofor always ץ) 2346-5-345  # final tsadi with  right parenthesis
-nofor always ץ, 2346-2  # final tsadi with  comma
-nofor always ץ. 2346-256  # final tsadi with  period
-nofor always ץ? 2346-56-236  # final tsadi with  question
-nofor always ץְ 2346-3  # final tsadi with sheva
-nofor always ץ־ 2346-36  # final tsadi with Mediq
-nofor always ץ” 2346-356  # final tsadi with right quote
-
-# Include additional braille tables
