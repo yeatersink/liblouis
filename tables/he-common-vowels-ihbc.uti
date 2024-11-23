@@ -470,3 +470,10 @@ letter ָ 126  # qamats
 letter ֹ 135  # holam Malay 
 letter ֺ 246  # holam haser 
 letter ֻ 136  # qubuts
+
+# nofor always op code characters
+nofor always ךְ 16-3  # final kaf with sheva
+nofor always םְ 134-3  # final Mem with sheva 
+nofor always ןְ 1345  # final Nun with sheva
+nofor always ףְ 124-14  # final Pe with furtive patah
+nofor always ץְ 2346-3  # final tsadi with sheva
