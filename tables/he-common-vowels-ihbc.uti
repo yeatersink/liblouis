@@ -26,8 +26,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-#This is a common character file based on the vowels of the IHBC that supports #Hebrew forward  translation.
-#Created by Matthew Yeater, Paul Geoghegan, and Leonard De Ruijter
+#This is a common character file that supports Hebrew forward  translation. Matthew Yeater, Paul Geoghegan, and Leonard De Ruijter
 
 # always op code characters
 always ִי 35  # hiriq-yod
@@ -471,5 +470,3 @@ letter ָ 126  # qamats
 letter ֹ 135  # holam Malay 
 letter ֺ 246  # holam haser 
 letter ֻ 136  # qubuts
-
-include he-common-consonants.uti
