@@ -1,4 +1,39 @@
-# always op code characters
+# liblouis: he-common-vowels-IHBC
+
+#-license: lgpl-2.1
+
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+
+# This is a common character file that supports Hebrew forward
+# translation.
+
+# Copyright (C) 2024 Matt Yeater- Yeshurun and Paul Geoghegan
+# Copyright (C) 2024 Leonard De Ruijter
+
+#-copyright: 2024, Matt Yeater- Yeshurun
+#-copyright: 2024, Paul Geoghegan
+#-copyright: 2024, Leonard De Ruijter
+
+#-maintainer: Matt Yeater- Yeshurun <yeatersink@gmail.com>
+#-maintainer: Paul Geoghegan <contact@envisionly.tech>
+
+#-author: Matt Yeater- Yeshurun
+#-author: Paul Geoghegan
+#-author: Leonard De Ruijter
+
 always ִי 35  # hiriq-yod
 always ֵי 3456  # tsere-yod
 always ְּו 346-3  # Shuriq sheva
@@ -427,7 +462,6 @@ always בְּ 12-3  # Bet with dagesh sheva
 always כְּ 13-3  # KAF with dagesh  sheva
 always תְּ 1256-3  # tav with daggesh sheva
 
-# letter op code characters
 letter Bֳֳ 345  # hataf qamats
 letter ְ 3  # sheva 
 letter ֱ 26  # hataf segol
@@ -440,5 +474,3 @@ letter ָ 126  # qamats
 letter ֹ 135  # holam Malay 
 letter ֺ 246  # holam haser 
 letter ֻ 136  # qubuts
-
-include he-common-consonants.uti
