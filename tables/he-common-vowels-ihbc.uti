@@ -1,3 +1,34 @@
+
+# liblouis: he-common-IHBC-vowels
+#
+#-display-name: Hebrew Common Characters-IHBC Vowels
+#-index-name: he-common-characters
+#+language: he
+#+type:literary
+#+contraction:no
+#+system:he-IHBC
+#+dots:6
+
+#-license: lgpl-2.1
+
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+
+#This is a common character file based on the vowels of the IHBC that supports #Hebrew forward  translation.
+#Created by Matthew Yeater, Paul Geoghegan, and Leonard De Ruijter
+
 # always op code characters
 always ִי 35  # hiriq-yod
 always ֵי 3456  # tsere-yod
