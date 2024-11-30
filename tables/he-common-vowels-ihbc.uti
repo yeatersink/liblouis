@@ -57,6 +57,7 @@ always אֵּ 5-1-34  # alef with dagesh and tsere
 always אֶּ 5-1-15  # alef with dagesh and segol
 always אַּ 5-1-14  # alef with dagesh and patah
 always אָּ 5-1-126  # alef dagesh  qamats
+always בְּ 12-3  # bet with dagesh sheva
 always בֱּ 12-26  # bet with dagesh and hataf segol
 always בֲּ 12-25  # bet with dagesh and hataf patah
 always בֳּ 12-345  # bet with dagesh and hataf qamats
@@ -65,7 +66,6 @@ always בֵּ 12-34  # bet with dagesh and tsere
 always בֶּ 12-15  # bet with dagesh and segol
 always בַּ 12-14  # bet with dagesh and parenthesis
 always בָּ 12-126  # bet dageshwith qamats
-always בְּ 12-3  # bet with dagesh sheva
 always בְּ 12-3  # bet with dagesh sheva
 always בֱּ 12-26  # bet dagesh  hataf segol
 always בֲּ 12-25  # bet dagesh  hataf patah
@@ -129,7 +129,16 @@ always הֵּ 5-125-34  # Hey with dagesh and tsere
 always הֶּ 5-125-15  # Hey with dagesh and segol
 always הַּ 5-125-14  # Hey with dagesh and patah
 always הָּ 5-125-126  # Hey dagesh  qamats
+always וְ 2456-3  # Vav with sheva
 always וְּ 346-3  # Shuriq sheva
+always וֱ 2456-26  # Vav with hataf segol
+always וֲ 2456-25  # vav with hataf patah
+always וֳ 2456-345  # Vav with hataf qamats
+always וִ 2456-24  # Vav with  hiriq
+always וֵ 2456-34  # Vav with tsere
+always וֶ 2456-15  # Vav with  segol
+always וַ 2456-14  # Vav with patah
+always וָ 2456-126  # Vav with qamats
 always וֹ 135  # holam-vav
 always וּ 346  # shuruq
 always וְּ 346-3  # Shuriq sheva
@@ -187,7 +196,7 @@ always טֵּ 5-2345-34  # tet with dagesh and tsere
 always טֶּ 5-2345-15  # tet with dagesh and segol
 always טַּ 5-2345-14  # tet with dagesh and patah
 always טָּ 5-2345-126  # tet dagesh  qamats
-always יְ 245-3  # Yod with dagesh sheva
+always יְ 245-3  # Yod with sheva
 always יֱּ 5-245-26  # Yod dagesh  hataf segol
 always יֲּ 5-245-25  # Yod dagesh  hataf patah
 always יֳּ 5-245-345  # Yod dagesh  hataf qamats
@@ -478,4 +487,3 @@ letter ֺ 246  # holam haser
 letter ֻ 136  # qubuts
 
 include he-common-consonants.uti
-
