@@ -17,7 +17,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-# according to the IHBC. This table supports forward translation.
+# This table is a common character table which supports Hebrew vowels according #to the IHBC. This table also supports forward  and back translation.
 
 # Copyright (C) 2024 Matt Yeater- Yeshurun and Paul Geoghegan
 # Copyright (C) 2024 Leonard De Ruijter
