@@ -33,7 +33,7 @@
 #-author: Paul Geoghegan
 #-author: Leonard De Ruijter
 
-always ִי 35  # hiriq-yod# always op code characters
+always ִי 35  # hiriq-yod
 always ִי 35  # hiriq-yod
 always ֵי 3456  # tsere-yod
 always אְ 1-3  # alef with  sheva
@@ -54,7 +54,7 @@ always בֳּ 12-345  # bet with dagesh and hataf qamats
 always בִּ 12-24  # bet  with dagesh and hiriq
 always בֵּ 12-34  # bet with dagesh and tsere
 always בֶּ 12-15  # bet with dagesh and segol
-always בַּ 12-14  # bet with dagesh and parenthesis
+always בַּ 12-14  # bet with dagesh and patah
 always בָּ 12-126  # bet dageshwith qamats
 always גְ 1245-3  # gimel with sheva
 always גְּ 5-1245-3  # gimel with dagesh and sheva
