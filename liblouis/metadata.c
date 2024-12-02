@@ -23,6 +23,8 @@
  * @brief Find translation tables
  */
 
+#include <config.h>
+
 #include <stdlib.h>
 #include <string.h>
 #ifdef _MSC_VER
@@ -32,7 +34,6 @@
 #endif
 #include <sys/stat.h>
 #include "internal.h"
-#include "config.h"
 
 /* =============================== LIST =================================== */
 
@@ -414,7 +415,7 @@ parseQuery(const char *query) {
 	if (!unicodeRange) {
 		// default value of unicode-range is determined by CHARSIZE
 		static char value[5] = "";
-		if (!*value) sprintf(value, "ucs%d", CHARSIZE);
+		if (!*value) sprintf(value, "ucs%ld", CHARSIZE);
 		FeatureWithImportance *f = memcpy(malloc(sizeof(FeatureWithImportance)),
 				(&(FeatureWithImportance){ feature_new("unicode-range", value), -1 }),
 				sizeof(FeatureWithImportance));
