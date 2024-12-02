@@ -17,7 +17,6 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-# This is a common character file that supports Hebrew vowels
 # according to the IHBC. This table supports forward translation.
 
 # Copyright (C) 2024 Matt Yeater- Yeshurun and Paul Geoghegan
@@ -34,9 +33,10 @@
 #-author: Paul Geoghegan
 #-author: Leonard De Ruijter
 
+always ִי 35  # hiriq-yod# always op code characters
 always ִי 35  # hiriq-yod
 always ֵי 3456  # tsere-yod
-always אְ 5-1-3  # alef with  sheva
+always אְ 1-3  # alef with  sheva
 always אְּ 5-1-3  # alef with  dagesh and sheva
 always אֱּ 5-1-26  # alef dagesh  hataf segol
 always אֲּ 5-1-25  # alef dagesh  hataf patah
@@ -46,7 +46,7 @@ always אֵּ 5-1-34  # alef with dagesh and tsere
 always אֶּ 5-1-15  # alef with dagesh and segol
 always אַּ 5-1-14  # alef with dagesh and patah
 always אָּ 5-1-126  # alef dagesh  qamats
-always בְ 12-3  # bet with sheva
+always בְ 1236-3  # bet with sheva
 always בְּ 12-3  # bet with dagesh sheva
 always בֱּ 12-26  # bet with dagesh and hataf segol
 always בֲּ 12-25  # bet with dagesh and hataf patah
@@ -56,7 +56,7 @@ always בֵּ 12-34  # bet with dagesh and tsere
 always בֶּ 12-15  # bet with dagesh and segol
 always בַּ 12-14  # bet with dagesh and parenthesis
 always בָּ 12-126  # bet dageshwith qamats
-always גְ 5-1245-3  # gimel with sheva
+always גְ 1245-3  # gimel with sheva
 always גְּ 5-1245-3  # gimel with dagesh and sheva
 always גֱּ 5-1245-26  # Gimel dagesh  hataf segol
 always גֲּ 5-1245-25  # Gimel dagesh  hataf patah
@@ -65,8 +65,8 @@ always גִּ 5-1245-24  # gimel with dagesh and hiriq
 always גֵּ 5-1245-34  # gimel with dagesh and tsere
 always גֶּ 5-1245-15  # gimel with dagesh and segol
 always גַּ 5-1245-14  # gimel with dagesh and patah
-always ג򰖸ּ 5-1245-126  # Gimel dagesh  qamats
-always דְ 5-145-3  # dalet with sheva
+always גָּ 5-1245-126  # Gimel dagesh  qamats
+always דְ 145-3  # dalet with sheva
 always דְּ 5-145-3  # dalet with dagesh sheva
 always דֱּ 5-145-26  # dalet with dagesh and hataf segol
 always דֲּ 5-145-25  # dalet with dagesh and hataf patah
@@ -76,7 +76,7 @@ always דֵּ 5-145-34  # dalet with dagesh and tsere
 always דֶּ 5-145-15  # dalet with dagesh and segol
 always דַּ 5-145-14  # dalet with dagesh and patah
 always דָּ 5-145-126  # dalet with dagesh and qamats
-always הְ 5-125-3  # hey with sheva
+always הְ 125-3  # hey with sheva
 always הְּ 5-125-3  # hey with dagesh and sheva
 always הֱּ 5-125-26  # Hey dagesh  hataf segol
 always הֲּ 5-125-25  # Hey dagesh  hataf patah
@@ -98,8 +98,8 @@ always וַ 2456-14  # Vav with patah
 always וָ 2456-126  # Vav with qamats
 always וֹ 135  # holam-vav
 always וּ 346  # shuruq
+always זְ 1356-3  # zayin with sheva
 always זְּ 5-1356-3  # zayin with dagesh and sheva
-always זְּ 5-1356-3  # zayin with sheva
 always זֱּ 5-1356-26  # zayin dagesh  hataf segol
 always זֲּ 5-1356-25  # zayin dagesh  hataf patah
 always זֳּ 5-1356-345  # zayin dagesh  hataf qamats
@@ -108,7 +108,7 @@ always זֵּ 5-1356-34  # zayin with dagesh and tsere
 always זֶּ 5-1356-15  # zayin with dagesh and segol
 always זַּ 5-1356-14  # zayin with dagesh and patah
 always זָּ 5-1356-126  # zayin dagesh  qamats
-always חְ 5-1346-3  # het with sheva
+always חְ 1346-3  # het with sheva
 always חְּ 5-1346-3  # het with dagesh and sheva
 always חֱּ 5-1346-26  # het dagesh  hataf segol
 always חֲּ 5-1346-25  # het dagesh  hataf patah
@@ -118,7 +118,7 @@ always חֵּ 5-1346-34  # het with dagesh and tsere
 always חֶּ 5-1346-15  # het with dagesh and segol
 always חַּ 5-1346-14  # Hex with dagesh and patah
 always חָּ 5-1346-126  # Hex dagesh  qamats
-always טְ 5-2345-3  # tet with sheva
+always טְ 2345-3  # tet with sheva
 always טְּ 5-2345-3  # tet with dagesh and sheva
 always טֱּ 5-245-26  # tet dagesh  hataf segol
 always טֲּ 5-2345-25  # tet dagesh  hataf patah
@@ -139,7 +139,7 @@ always יֵּ 5-245-34  # Yod with dagesh and tsere
 always יֶּ 5-245-15  # Yod with dagesh and segol
 always יַּ 5-245-14  # Yod with dagesh and patah
 always יָּ 5-245-126  # Yod dagesh  qamats
-always כְ 13-3  # kaf with sheva
+always כְ 16-3  # kaf with sheva
 always כְּ 13-3  # kaf with dagesh sheva
 always כֱּ 13-26  # kaf with dagesh and hataf segol
 always כֲּ 13-25  # kaf with dagesh and hataf patah
@@ -149,7 +149,7 @@ always כֵּ 13-34  # kaf with dagesh and tsere
 always כֶּ 13-15  # kaf with dagesh and segol
 always כַּ 13-14  # kaf with dagesh and patah
 always כָּ 13-126  # kaf with dagesh and qamats
-always לְ 5-123-3  # lamed with sheva
+always לְ 123-3  # lamed with sheva
 always לְּ 5-123-3  # lamed with dagesh sheva
 always לֱּ 5-123-26  # lamed with dagesh and hataf segol
 always לֲּ 5-123-25  # lamed with dagesh and hataf patah
@@ -159,8 +159,8 @@ always לֵּ 5-123-34  # lamed with dagesh and tsere
 always לֶּ 5-123-15  # lamed with dagesh and segol
 always לַּ 5-123-14  # lamed with dagesh and patah
 always לָּ 5-123-126  # lamed with dagesh and qamats
+always מְ 134-3  # mem with sheva
 always מְּ 5-134-3  # mem with dagesh sheva
-always מְּ 5-134-3  # mem with sheva
 always מֱּ 5-134-26  # mem dagesh  hataf segol
 always מֲּ 5-134-25  # mem dagesh  hataf patah
 always מֳּ 5-134-345  # mem dagesh  hataf qamats
@@ -169,7 +169,7 @@ always מֵּ 5-134-34  # mem  with dagesh and tsere
 always מֶּ 5-134-15  # mem  with dagesh and segol
 always מַּ 5-134-14  # mem  with dagesh and patah
 always מָּ 5-134-126  # mem dagesh  qamats
-always נְ 5-1345-3  # nun with  dagesh sheva
+always נְ 1345-3  # nun with  dagesh sheva
 always נְּ 5-1345-3  # nun with  dagesh sheva
 always נֱּ 5-1345-26  # nun with dagesh and hataf segol
 always נֲּ 5-1345-25  # nun with dagesh and hataf patah
@@ -179,7 +179,7 @@ always נֵּ 5-1345-34  # nun with dagesh and tsere
 always נֶּ 5-1345-15  # nun with dagesh and segol
 always נַּ 5-1345-14  # nun with dagesh and patah
 always נָּ 5-1345-126  # nun with dagesh and qamats
-always סְ 5-234-3  # samekh with dagesh and sheva
+always סְ 234-3  # samekh with dagesh and sheva
 always סְּ 5-234-3  # samekh with dagesh and sheva
 always סֱּ 5-234-26  # samekh with dagesh and hataf segol
 always סֲּ 5-234-25  # samekh with dagesh and hataf patah
@@ -189,7 +189,7 @@ always סֵּ 5-234-34  # samekh with dagesh and tsere
 always סֶּ 5-234-15  # samekh with dagesh and segol
 always סַּ 5-234-14  # samekh with dagesh and patah
 always סָּ 5-234-126  # samekh with dagesh and qamats
-always עְ 5-1246-3  # ayin with sheva
+always עְ 1246-3  # ayin with sheva
 always עְּ 5-1246-3  # ayin with dagesh and sheva
 always עֱּ 5-1246-26  # ayin with dagesh and hataf segol
 always עֲּ 5-1246-25  # ayin with dagesh and hataf patah
@@ -199,7 +199,7 @@ always עֵּ 5-1246-34  # ayin with dagesh and tsere
 always עֶּ 5-1246-15  # ayin with dagesh and segol
 always עַּ 5-1246-14  # ayin with dagesh and patah
 always עָּ 5-1246-126  # ayin with dagesh and qamats
-always פְ 1234-3  # pe with sheva
+always פְ 124-3  # pe with sheva
 always פְּ 1234-3  # pe with dagesh and sheva
 always פֱּ 1234-26  # pe with dagesh and hataf segol
 always פֲּ 1234-25  # pe with dagesh and hataf patah
@@ -209,7 +209,7 @@ always פֵּ 1234-34  # pe with dagesh and tsere
 always פֶּ 1234-15  # pe with dagesh and segol
 always פַּ 1234-14  # pe with dagesh and patah
 always פָּ 1234-126  # pe with dagesh and qamats
-always צְ 5-2346-3  # tsadi with sheva
+always צְ 2346-3  # tsadi with sheva
 always צְּ 5-2346-3  # tsadi with dagesh and sheva
 always צֱּ 5-2346-26  # tsadi with dagesh and hataf segol
 always צֲּ 5-2346-25  # tsadi with dagesh and hataf patah
@@ -219,7 +219,7 @@ always צֵּ 5-2346-34  # tsadi with dagesh and tsere
 always צֶּ 5-2346-15  # tsadi with dagesh and segol
 always צַּ 5-2346-14  # tsadi with dagesh and patah
 always צָּ 5-2346-126  # tsadi with dagesh and qamats
-always קְ 5-12345-3  # qof with sheva
+always קְ 12345-3  # qof with sheva
 always קְּ 5-12345-3  # qof with dagesh sheva
 always קֱּ 5-12345-26  # qof with dagesh and hataf segol
 always קֲּ 5-12345-25  # qof with dagesh and hataf patah
@@ -229,7 +229,7 @@ always קֵּ 5-12345-34  # qof with dagesh and tsere
 always קֶּ 5-12345-15  # qof with dagesh and segol
 always קַּ 5-12345-14  # qof with dagesh and patah
 always קָּ 5-12345-126  # qof with dagesh and qamats
-always רְ 5-1235-3  # Resh with sheva
+always רְ 1235-3  # Resh with sheva
 always רְּ 5-1235-3  # Resh with dagesh and sheva
 always רֱּ 5-1235-26  # resh with dagesh and hataf segol
 always רֲּ 5-1235-25  # resh with dagesh and hataf patah
@@ -276,7 +276,7 @@ always שָּׁ 5-146-126  # shin with dot and qamats
 always שָׂ 156-126  # sin with qamats
 always שָּׂ 5-156-126  # sin  qamats
 always שְׁ 146-3  #  Shin with dot and sheva
-always תְ 1256-3  # tav with dagesh sheva
+always תְ 1456-3  # tav with dagesh sheva
 always תְּ 1256-3  # tav with dagesh sheva
 always תֱּ 1256-26  # tav with dagesh and hataf segol
 always תֲּ 1256-25  # tav with dagesh and hataf patah
@@ -287,6 +287,7 @@ always תֶּ 1256-15  # tav with dagesh and segol
 always תַּ 1256-14  # tav with dagesh and patah
 always תָּ 1256-126  # tav with dagesh and qamats
 
+# letter op code characters
 letter ְ 3  # sheva 
 letter ֱ 26  # hataf segol
 letter ֲ 25  # hataf patah
